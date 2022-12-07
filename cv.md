@@ -1,20 +1,31 @@
-Tolmachev Vladislav
+# **Tolmachev Vladislav**
 
-Contacts
+===
 
-Email: tolmachev368884@mail.ru
-Discord: Vladislav Tolmachev #4245
+## **Contacts**
 
-About me
+- _Email:_ tolmachev368884@mail.ru
+
+- _Discord:_ Vladislav Tolmachev #4245
+
+===
+
+## **About me**
 
 Student in Yandex Practicum and Rolling Scopes School.
 
-Skills
+===
 
-HTML
-CSS
-Figma
+## **Skills**
 
-Language
+- _HTML_
 
-English(basic)
+- _CSS_
+
+- _Figma_
+
+===
+
+## **Language**
+
+- _English(basic)_
