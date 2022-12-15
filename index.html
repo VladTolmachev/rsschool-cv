@@ -4,8 +4,68 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="promo">
+    <div class="container">
+      <div class="promo__wrapper">
+        <img class="promo__img" src="assets/img/avatar-sv.png" alt="avatar">
+        <div class="promo__info">
+          <h1 class="promo__title">Vladislav Tolmachev</h1>
+          <p class="promo__subtitle">Junior Front-end Developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <p class="section-item">Email: tolmachev368884@mail.ru</p>
+        <p class="section-item">Discord: Vladislav Tolmachev #4245</p>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>Hey, I`m Vladislav Tolmachev, student in Yandex Practicum and Rolling Scopes School.</p>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <p class="section-item"><strong>Rolling Scopes School</strong> JS/FE</p>
+        <p class="section-item"><strong>Yandex Practicum</strong> Web Dev</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-item">HTML</p>
+        <p class="section-item">CSS</p>
+        <p class="section-item">Figma</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <a href="https://github.com/VladTolmachev" class="link-git">VladTolmachev</a>
+        <p class="footer__data">&copy;2022</p>
+        <a href="https://rs.school/js/">
+          <img class="link-rs" src="assets/img/rs_school_js.svg" alt="logo rs">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
